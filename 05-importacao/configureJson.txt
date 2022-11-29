@@ -1,0 +1,26 @@
+
+para utilizar funcoes-auxiliares2 e main2.js precisa configurar o package.json
+
+como configurar o package.json:
+1: abra o terminal , execute o comando npm init para gerar o package.json, em seguida vá dando enter em tudo
+2: após gerar o package.json, abra o package.json você terá a seguinte linha:
+
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+}
+
+localize essa linha em seguida vamos adicionar o "type": "module" para poder utilizar os imports e exports ES6,
+que estamos utilizando em funcoes-auxiliares2.js e main2.js segue o exemplo abaixo:
+
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+}
+
+pronto agora podemos utilizar normalmente os arquivos main2.js e funcoes-auxiliares2.js
